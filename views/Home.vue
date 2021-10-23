@@ -1,6 +1,6 @@
   <template>
   <div class="site h-screen" style="background: '#EDEFF1'">
-    <div class="container mx-auto py-4 px-4 md:px-0">
+    <div style="padding: 16px" class="container mx-auto md:px-0">
       <Header :name="myName" />
       <main class="site__main">
         <Description />

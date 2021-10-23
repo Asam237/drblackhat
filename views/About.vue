@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto py-4 px-4 md:px-0">
+  <div style="padding: 16px" class="container mx-auto md:px-0">
     <Header :name="myName" />
     <main class="site__main py-8 md:py-16 flex flex-col md:flex-row">
       <div class="site__main-picturei w-full md:w-1/2">
