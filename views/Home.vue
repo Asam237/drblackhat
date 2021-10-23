@@ -1,6 +1,9 @@
   <template>
   <div class="site h-screen" style="background: '#EDEFF1'">
-    <div style="padding: 16px" class="container mx-auto md:px-0">
+    <div
+      style="padding: 16px; margin-left: auto; margin-right: auto"
+      class="container md:px-0"
+    >
       <Header :name="myName" />
       <main class="site__main">
         <Description />
