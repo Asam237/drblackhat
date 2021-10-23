@@ -26,7 +26,7 @@
       </h1>
       <div class="site__main-content">
         <ul
-          class="list-disc divide-y-2 divide-gray-400"
+          class="list-disc divide-y-2 mt-2 md:mt-4 divide-gray-400"
           v-for="item in infosUtiles"
           :key="item"
         >
