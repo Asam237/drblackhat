@@ -5,22 +5,37 @@
       class="container md:px-0"
     >
       <Header :name="myName" />
-      <div class="site__view py-6 md:py-16 items-center justify-center flex">
-        <p
-          class="
-            text-xs
-            md:w-1/2
-            bg-blue-800
-            py-2
-            px-4
-            md:text-sm
-            rounded-lg
-            text-white text-center
-            uppercase
-          "
-        >
-          En cours de creation...
-        </p>
+      <div class="site__contact py-6 md:py-16 flex flex-col md:flex-row">
+        <div class="site__contact-pic w-full md:w-1/2">
+          <img class="md:w-11/12 rounded-md" :src="myPicture" alt="" />
+        </div>
+        <div class="site__contact-text mt-4 md:mt-0 w-full md:w-1/2">
+          <h4
+            class="text-4xl pb-4"
+            style="font-family: 'Zen Old Mincho', sans-serif"
+          >
+            Entrer en contact
+          </h4>
+          <p class="text-sm leading-6">
+            Avez une des commentaires pour nous? <br />
+            Remplissez le formulaire ci-dessous pour contacter.
+          </p>
+          <form action="" method="post" class="flex flex-col">
+            <input
+              type="text"
+              class="border-2 px-2 py-1 rounded-md mt-4"
+              placeholder="adresse mail"
+            />
+            <textarea
+              type="text"
+              class="border-2 px-2 py-1 rounded-md my-4"
+              placeholder="message"
+            />
+            <button class="bg-blue-800 text-white rounded-md py-2">
+              valider
+            </button>
+          </form>
+        </div>
       </div>
       <Footer :content="footer" />
     </div>
@@ -41,7 +56,7 @@ export default {
     return {
       myName: "Dr BlackHat",
       footer: "© 2021 - Tous droits réservés Mentions légales",
-      myPicture: require("../src/assets/img/creation.png"),
+      myPicture: require("../src/assets/img/picture.jpg"),
     };
   },
 };

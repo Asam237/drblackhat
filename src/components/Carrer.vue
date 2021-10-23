@@ -44,9 +44,10 @@ export default {
   name: "Carrer",
   data() {
     return {
-      title: "My Career So Far",
+      title: "Ma carrière jusqu'à présent",
+      // title: "My Career So Far",
       content:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus quos corporis, quis nihil asperiores qui molestiae tempore suscipit! Voluptate, quia.",
+        "L'explosion de nouvelles entreprises dans l'industrie de la blockchain et la volatilité des prix des actifs ont été responsables de l'augmentation soudaine des fonds d'investissement crypto et le nombre d'ouvertures pour les rôles de Trader a également considérablement augmenté.",
       careers: [
         "Trending",
         "Blockchain",

@@ -20,6 +20,7 @@
           w-full
           md:w-10/12
         "
+        data-aos="fade-up-right"
       >
         {{ title }}
       </h1>

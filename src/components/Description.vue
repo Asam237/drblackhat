@@ -32,7 +32,7 @@
         style="font-family: 'Zen Old Mincho', sans-serif"
         class="uppercase mt-2"
       >
-        Follow me on social network
+        Suivez-moi sur les réseaux sociaux
       </h4>
     </div>
   </section>
@@ -43,9 +43,10 @@ export default {
   name: "Description",
   data() {
     return {
-      title: "Hi there!",
+      // title: "Hi there!",
+      title: "Salut !",
       content:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nesciunt illo veniam perspiciatis, ipsa deserunt ratione quia est voluptates nemo.",
+        "Je suis un négociateur de valeurs engagées par une banque, une société de bourse ou d’investissement. Je vend et j'achète des actions ou des obligations en suivant en permanence la fluctuation de leur cours, le téléphone à l'oreille. Il agit pour le compte d'une banque ou d'une société de bourse et de leurs clients, engageant des sommes parfois colossales.",
       myPicture: require("../assets/img/picture.jpg"),
     };
   },

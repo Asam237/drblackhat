@@ -72,7 +72,7 @@ export default {
       about: "/about",
       myPicture: require("../assets/img/picture.jpg"),
       links: [
-        { url: "/about", name: "about" },
+        { url: "/about", name: "a propos" },
         { url: "/contact", name: "contact" },
       ],
     };
