@@ -28,7 +28,7 @@
             />
             <textarea
               type="text"
-              class="border-2 px-2 py-1 rounded-md my-4"
+              class="border-2 mt-4 px-2 py-1 rounded-md my-4"
               placeholder="message"
             />
             <button class="bg-blue-800 text-white rounded-md py-2">
