@@ -40,7 +40,7 @@ export default {
   data() {
     return {
       myName: "Dr BlackHat",
-      footer: "Dr BlackHat - 2021",
+      footer: "© 2021 - Tous droits réservés Mentions légales",
       myPicture: require("../src/assets/img/creation.png"),
     };
   },

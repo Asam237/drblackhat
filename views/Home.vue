@@ -5,7 +5,7 @@
       class="container md:px-0"
     >
       <Header :name="myName" />
-      <main class="site__main">
+      <main class="site__main pb-8 md:pb-12">
         <Description />
         <Carrer />
       </main>
@@ -31,7 +31,7 @@ export default {
   data() {
     return {
       myName: "Dr BlackHat",
-      footer: "Dr BlackHat - 2021",
+      footer: "© 2021 - Tous droits réservés Mentions légales",
     };
   },
 };

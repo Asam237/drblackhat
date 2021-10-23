@@ -7,12 +7,20 @@
       md:justify-between
       md:items-center
     "
-    style="font-family: 'Rubik', sans-serif; border-bottom-width: 1px"
+    style="font-family: 'Zen Old Mincho', sans-serif; border-bottom-width: 1px"
   >
-    <div class="site__header-name pb-2">
+    <div class="site__header-name pb-2 flex items-center">
+      <div class="site__header-pic mr-2">
+        <img class="w-10 h-10 rounded-full" :src="myPicture" alt="" />
+      </div>
       <h4
         @click="homeCLick"
-        class="cursor-pointer font-semibold hover:underline hover:text-blue-800"
+        class="
+          cursor-pointer
+          font-semibold
+          hover:line-through
+          hover:text-blue-800
+        "
       >
         {{ name }}
       </h4>
@@ -24,7 +32,14 @@
             @click="changeByClick"
             :href="link.url"
             v-for="link in links"
-            class="ml-0 md:ml-4 uppercase hover:text-blue-800 hover:underline"
+            class="
+              ml-0
+              hover:line-through
+              md:ml-4
+              uppercase
+              hover:text-blue-800
+              hover:underline
+            "
             :key="link.url"
           >
             {{ link.name }}
@@ -55,10 +70,10 @@ export default {
     return {
       home: "/",
       about: "/about",
+      myPicture: require("../assets/img/picture.jpg"),
       links: [
         { url: "/about", name: "about" },
         { url: "/contact", name: "contact" },
-        { url: "/viewwork", name: "view work" },
       ],
     };
   },

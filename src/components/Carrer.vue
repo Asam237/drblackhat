@@ -1,7 +1,10 @@
 <template>
   <div class="site__carrer flex flex-col md:flex-row">
     <div class="site__carrer-text w-full md:w-1/2">
-      <h4 style="font-family: 'Rubik', sans-serif" class="text-3xl mb-4">
+      <h4
+        style="font-family: 'Zen Old Mincho', sans-serif"
+        class="text-3xl mb-4"
+      >
         {{ title }}
       </h4>
       <p style="font-family: 'Karla', sans-serif" class="leading-7 md:w-11/12">
