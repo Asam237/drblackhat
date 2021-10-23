@@ -2,9 +2,22 @@
   <div class="site h-screen" style="background: '#EDEFF1'">
     <div style="padding: 16px" class="container mx-auto md:px-0">
       <Header :name="myName" />
-      <div class="site__view py-6 md:py-16 flex flex-col items-center">
-        <img :src="myPicture" />
-        <p class="text-center uppercase">En cours de creation...</p>
+      <div class="site__view py-6 md:py-16 items-center justify-center flex">
+        <p
+          class="
+            text-xs
+            md:w-1/2
+            bg-blue-800
+            py-2
+            px-4
+            md:text-sm
+            rounded-lg
+            text-white text-center
+            uppercase
+          "
+        >
+          En cours de creation...
+        </p>
       </div>
       <Footer :content="footer" />
     </div>
